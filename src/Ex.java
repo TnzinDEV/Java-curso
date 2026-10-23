@@ -6,18 +6,18 @@ public class Ex {
         System.out.println("Qual sue salario?");
 
         double salario = leitor.nextDouble();
+        double taxa;
 
-        if (salario > 2000)
-        {
-            double salarioofc = salario * 0.11;
-            System.out.println(salarioofc);
-        }else if
-            (salario < 1500 && salario > 2000){
-            double salarioofc = salario * 0.9;
-            System.out.println(salarioofc);
-        }else; {
-            double salarioofc = salario * 0.8;
-            System.out.println(salarioofc);}
+        if (salario >= 2000) {
+            taxa = salario * 0.11;
+        } else if (salario >= 1500) {   // já sabemos que é < 2000
+            taxa = salario * 0.09;
+        } else {
+            taxa = salario * 0.08;
+        }
+
+        System.out.printf("Salario Com Taxa: R$ %.2f%n", taxa);
+        leitor.close();
 
 
     }
