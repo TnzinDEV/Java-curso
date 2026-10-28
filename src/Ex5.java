@@ -5,20 +5,22 @@ public class Ex5 {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite o numero de entrada: ");
         int entrada = input.nextInt();
-        double cem = entrada /100;
-        double cinquenta = entrada /50;
-        double vinte = entrada /20 ;
-        double dez = entrada/10;
-        double cinco = entrada/5;
-        double dois = entrada/2;
-        double um = entrada/1;
-        System.out.printf("Valor: %d%n",(int)  cem);
-        System.out.println("Valor: %d%n",(int) cinquenta);
-        System.out.println("Valor: %d%n",(int) vinte);
-        System.out.println("Valor: %d%n",(int) dez);
-        System.out.println("Valor: %d%n",(int) cinco;
-        System.out.println("Valor: %d%n",(int) dois);
-        System.out.println("Valor: %d%n",(int) um);
+        int cem = entrada / 100;
+         int cinquenta = entrada / 50;
+         int vinte = entrada / 20;
+         int dez = entrada / 10;
+         int cinco = entrada / 5;
+         int dois = entrada / 2;
+         int  um = entrada / 1;
+
+        System.out.printf("Notas de 100: %d%n", cem);
+        System.out.printf("Notas de 50 : %d%n", cinquenta);
+        System.out.printf("Notas de 20 : %d%n", vinte);
+        System.out.printf("Notas de 10 : %d%n", dez);
+        System.out.printf("Notas de 5  : %d%n", cinco);
+        System.out.printf("Notas de 2  : %d%n", dois);
+        System.out.printf("Notas de 1  : %d%n", um);
+    }
     }
 
 
