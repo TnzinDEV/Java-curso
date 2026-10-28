@@ -8,11 +8,19 @@ public class Ex5 {
         double cem = entrada /100;
         double cinquenta = entrada /50;
         double vinte = entrada /20 ;
+        double dez = entrada/10;
+        double cinco = entrada/5;
+        double dois = entrada/2;
+        double um = entrada/1;
         System.out.printf("Valor: %d%n",(int)  cem);
         System.out.println("Valor: %d%n",(int) cinquenta);
         System.out.println("Valor: %d%n",(int) vinte);
+        System.out.println("Valor: %d%n",(int) dez);
+        System.out.println("Valor: %d%n",(int) cinco;
+        System.out.println("Valor: %d%n",(int) dois);
+        System.out.println("Valor: %d%n",(int) um);
     }
-}
+
 
 
 //Exercício 3 – Caixa eletrônico
